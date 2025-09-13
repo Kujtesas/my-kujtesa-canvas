@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import projectDental from '@/assets/project-dental.jpg';
+import projectDental from '@/assets/project-dental.avif';
 import projectEcommerce from '@/assets/project-ecommerce.jpg';
 import projectSaas from '@/assets/project-saas.jpg';
 import projectAgency from '@/assets/project-agency.jpg';
@@ -9,7 +9,7 @@ import projectMobile from '@/assets/project-mobile.jpg';
 const projects = [
   {
     id: 'dental-website',
-    title: 'Dental Website',
+    title: 'Dental website & CRM',
     category: 'Web Design',
     image: projectDental,
     description: 'Modern dental practice website with clean design and appointment booking system.'
