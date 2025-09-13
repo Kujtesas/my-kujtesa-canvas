@@ -12,7 +12,7 @@ const Hero = () => {
                 Hey there, I am
               </h1>
               <h1 className="text-hero-accent">
-                John Doe
+                Kujtesa
               </h1>
             </div>
             
