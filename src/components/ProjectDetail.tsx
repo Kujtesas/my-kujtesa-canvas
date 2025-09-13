@@ -14,7 +14,7 @@ const projectData = {
     description: 'I designed a modern dental practice website that combines clean aesthetics with user-friendly functionality. The design features a calming color palette, intuitive navigation, and seamless appointment booking system. The responsive layout ensures optimal viewing across all devices while maintaining the professional medical aesthetic.',
     images: [projectDental, projectEcommerce, projectSaas, projectAgency, projectRestaurant, projectMobile], // Placeholder - using different images as examples
     liveUrl: 'https://example.com',
-    technologies: ['Figma', 'HTML', 'CSS', 'JavaScript', 'React']
+    technologies: ['Adobe Photoshop', 'Figma']
   },
   'ecommerce-platform': {
     title: 'E-commerce Platform',
