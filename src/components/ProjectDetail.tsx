@@ -40,6 +40,9 @@ import mstudio1 from '@/assets/mstudio-1.jpg';
 import mstudio2 from '@/assets/mstudio-2.jpg';
 import mstudio3 from '@/assets/mstudio-3.jpg';
 import mstudio4 from '@/assets/mstudio-4.jpg';
+import ecommerce1 from '@/assets/ecommerce-1.jpg';
+import ecommerce2 from '@/assets/ecommerce-2.png';
+import ecommerce3 from '@/assets/ecommerce-3.png';
 
 const projectData = {
   'dental-website': {
@@ -54,7 +57,7 @@ const projectData = {
     title: 'E-commerce platform',
     category: 'Web Development',
     description: 'A comprehensive e-commerce platform designed for fashion brands. Features include product catalog, shopping cart, secure checkout, and admin dashboard. The design emphasizes visual appeal with large product images and smooth user interactions throughout the shopping journey.',
-    images: [projectNew2, projectNew1, projectNew3, projectNew4, projectNew5],
+    images: [ecommerce1, ecommerce2, ecommerce3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
