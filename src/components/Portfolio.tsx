@@ -14,6 +14,7 @@ import dentalHero from '@/assets/dental-hero.avif';
 import spektrHero from '@/assets/spektr-hero.jpg';
 import mstudio4 from '@/assets/mstudio-4.jpg';
 import ecommerce3 from '@/assets/ecommerce-3.png';
+import astz1 from '@/assets/astz-1.png';
 
 const projects = [
   {
@@ -76,7 +77,7 @@ const projects = [
     id: 'astz-website',
     title: 'ASTZ website & CRM',
     category: 'Web Design',
-    image: projectNew4,
+    image: astz1,
     description: 'Corporate website and customer relationship management system integration.'
   },
   {

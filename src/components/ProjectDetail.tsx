@@ -43,6 +43,9 @@ import mstudio4 from '@/assets/mstudio-4.jpg';
 import ecommerce1 from '@/assets/ecommerce-1.jpg';
 import ecommerce2 from '@/assets/ecommerce-2.png';
 import ecommerce3 from '@/assets/ecommerce-3.png';
+import astz1 from '@/assets/astz-1.png';
+import astz2 from '@/assets/astz-2.jpg';
+import astz3 from '@/assets/astz-3.png';
 
 const projectData = {
   'dental-website': {
@@ -113,7 +116,7 @@ const projectData = {
     title: 'ASTZ website & CRM',
     category: 'Web Design',
     description: 'Corporate website and customer relationship management system integration designed for business efficiency. The project combined modern web design with powerful CRM functionality to streamline business operations and improve customer relationships.',
-    images: [projectNew4, projectNew1, projectNew2, projectNew3, projectNew5],
+    images: [astz1, astz2, astz3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
