@@ -46,6 +46,10 @@ import ecommerce3 from '@/assets/ecommerce-3.png';
 import astz1 from '@/assets/astz-1.png';
 import astz2 from '@/assets/astz-2.jpg';
 import astz3 from '@/assets/astz-3.png';
+import presentation1 from '@/assets/presentation-1.png';
+import presentation2 from '@/assets/presentation-2.png';
+import presentation3 from '@/assets/presentation-3.jpg';
+import presentation4 from '@/assets/presentation-4.png';
 
 const projectData = {
   'dental-website': {
@@ -124,7 +128,7 @@ const projectData = {
     title: 'Presentations Design',
     category: 'Presentation Design',
     description: 'Professional presentation design with compelling visuals and clear messaging that captivate audiences. The project involved creating slide templates, infographics, and visual storytelling elements that enhance communication effectiveness.',
-    images: [projectNew5, projectNew1, projectNew2, projectNew3, projectNew4],
+    images: [presentation1, presentation2, presentation3, presentation4],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
