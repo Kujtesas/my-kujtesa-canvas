@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 
@@ -56,17 +56,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-text-secondary text-sm">Email</p>
-                      <p className="text-text-primary font-medium">john.doe@example.com</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <Phone className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <p className="text-text-secondary text-sm">Phone</p>
-                      <p className="text-text-primary font-medium">+1 (555) 123-4567</p>
+                      <p className="text-text-primary font-medium">kujtesashabanaj97@gmail.com</p>
                     </div>
                   </div>
                   
@@ -76,41 +66,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-text-secondary text-sm">Location</p>
-                      <p className="text-text-primary font-medium">New York, NY</p>
+                      <p className="text-text-primary font-medium">Prishtina, Kosovo</p>
                     </div>
                   </div>
-                </div>
-              </div>
-              
-              <div>
-                <h4 className="text-lg font-semibold text-text-primary mb-4">
-                  Follow Me
-                </h4>
-                <div className="flex space-x-4">
-                  <a
-                    href="https://linkedin.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
-                  >
-                    <Linkedin className="w-5 h-5" />
-                  </a>
-                  <a
-                    href="https://github.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
-                  >
-                    <Github className="w-5 h-5" />
-                  </a>
-                  <a
-                    href="https://twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
-                  >
-                    <Twitter className="w-5 h-5" />
-                  </a>
                 </div>
               </div>
             </div>
