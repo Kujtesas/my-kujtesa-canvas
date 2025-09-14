@@ -11,6 +11,7 @@ import logo1 from '@/assets/logo-1.jpg';
 import socialHero from '@/assets/social-hero.avif';
 import print1 from '@/assets/print-1.avif';
 import dentalHero from '@/assets/dental-hero.avif';
+import spektrHero from '@/assets/spektr-hero.jpg';
 
 const projects = [
   {
@@ -31,7 +32,7 @@ const projects = [
     id: 'saas-dashboard',
     title: 'Spektr website and branding',
     category: 'Branding',
-    image: projectNew3,
+    image: spektrHero,
     description: 'Complete brand identity and website design with modern visual elements.'
   },
   {
