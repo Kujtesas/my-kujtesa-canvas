@@ -11,15 +11,16 @@ import dental1 from '@/assets/dental-1.jpg';
 import dental2 from '@/assets/dental-2.avif';
 import dental3 from '@/assets/dental-3.webp';
 import dental4 from '@/assets/dental-4.avif';
+import dental5 from '@/assets/dental-5.avif';
 
 const projectData = {
   'dental-website': {
     title: 'Dental website & CRM',
     category: 'Web Design',
     description: 'I designed a modern dental practice website that combines clean aesthetics with user-friendly functionality. The design features a calming color palette, intuitive navigation, and seamless appointment booking system. The responsive layout ensures optimal viewing across all devices while maintaining the professional medical aesthetic.',
-    images: [dental1, dental2, dental3, dental4],
+    images: [dental1, dental2, dental3, dental4, dental5],
     liveUrl: 'https://example.com',
-    technologies: ['Adobe Photoshop', 'Figma']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'ecommerce-platform': {
     title: 'E-commerce platform',
@@ -27,7 +28,7 @@ const projectData = {
     description: 'A comprehensive e-commerce platform designed for fashion brands. Features include product catalog, shopping cart, secure checkout, and admin dashboard. The design emphasizes visual appeal with large product images and smooth user interactions throughout the shopping journey.',
     images: [projectNew2, projectNew1, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'saas-dashboard': {
     title: 'Spektr website and branding',
@@ -35,7 +36,7 @@ const projectData = {
     description: 'Complete brand identity and website design with modern visual elements. The project involved creating a cohesive brand system, logo design, and responsive website that reflects the company\'s innovative approach and professional standards.',
     images: [spektrHero, projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['Adobe Creative Suite', 'Figma', 'React', 'CSS', 'JavaScript']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'creative-agency': {
     title: 'Master WiZR Website',
@@ -43,7 +44,7 @@ const projectData = {
     description: 'Professional website design with focus on user experience and functionality. The design emphasizes clean layouts, intuitive navigation, and responsive design principles to create an engaging digital experience across all devices.',
     images: [projectNew4, projectNew1, projectNew2, projectNew3, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['Figma', 'React', 'Tailwind CSS', 'JavaScript', 'CSS Animations']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'restaurant-website': {
     title: 'MStudio Product',
@@ -51,7 +52,7 @@ const projectData = {
     description: 'Product design and development with attention to detail and usability. The project focused on creating user-centered design solutions that balance functionality with aesthetic appeal, ensuring optimal user experience and product success.',
     images: [projectNew5, projectNew1, projectNew2, projectNew3, projectNew4],
     liveUrl: 'https://example.com',
-    technologies: ['Figma', 'Sketch', 'Adobe Creative Suite', 'Prototyping', 'User Research']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'mobile-app': {
     title: 'Logos',
@@ -59,7 +60,7 @@ const projectData = {
     description: 'Professional logo design with strong brand identity and visual impact. The design process involved concept development, typography selection, and color palette creation to establish memorable and versatile brand marks for various applications.',
     images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',  
-    technologies: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma', 'Brand Guidelines', 'Typography']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'social-media': {
     title: 'Social Media',
@@ -67,7 +68,7 @@ const projectData = {
     description: 'Creative social media content and campaign design with engaging visuals that drive audience engagement. The project involved creating cohesive visual content across multiple platforms while maintaining brand consistency and maximizing reach.',
     images: [projectNew2, projectNew1, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['Adobe Creative Suite', 'Canva', 'Social Media Tools', 'Content Strategy', 'Analytics']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'printing': {
     title: 'Printing',
@@ -75,7 +76,7 @@ const projectData = {
     description: 'High-quality print materials including business cards, flyers and promotional items designed for maximum visual impact. The project focused on creating print-ready designs that maintain quality across different print mediums and formats.',
     images: [projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['Adobe InDesign', 'Adobe Illustrator', 'Print Production', 'Color Management', 'Typography']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'astz-website': {
     title: 'ASTZ website & CRM',
@@ -83,7 +84,7 @@ const projectData = {
     description: 'Corporate website and customer relationship management system integration designed for business efficiency. The project combined modern web design with powerful CRM functionality to streamline business operations and improve customer relationships.',
     images: [projectNew4, projectNew1, projectNew2, projectNew3, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['React', 'CRM Integration', 'Database Design', 'API Development', 'Responsive Design']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'presentations': {
     title: 'Presentations Design',
@@ -91,7 +92,7 @@ const projectData = {
     description: 'Professional presentation design with compelling visuals and clear messaging that captivate audiences. The project involved creating slide templates, infographics, and visual storytelling elements that enhance communication effectiveness.',
     images: [projectNew5, projectNew1, projectNew2, projectNew3, projectNew4],
     liveUrl: 'https://example.com',
-    technologies: ['PowerPoint', 'Keynote', 'Adobe Creative Suite', 'Infographic Design', 'Visual Communication']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
   'brochures': {
     title: 'Brochures',
@@ -99,7 +100,7 @@ const projectData = {
     description: 'Informative and visually appealing brochure design for various industries that effectively communicate brand messages. The designs balance text and imagery to create engaging marketing materials that drive customer action.',
     images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
-    technologies: ['Adobe InDesign', 'Adobe Photoshop', 'Print Layout', 'Marketing Design', 'Brand Communication']
+    technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   }
 };
 
@@ -161,15 +162,6 @@ const ProjectDetail = () => {
             <span className="text-primary bg-primary/10 px-4 py-2 rounded-full text-sm font-medium">
               {project.category}
             </span>
-            <a
-              href={project.liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-primary hover:text-primary/80 transition-smooth"
-            >
-              <ExternalLink className="w-4 h-4" />
-              <span>View Live</span>
-            </a>
           </div>
           <h1 className="text-section-title text-text-primary mb-6">
             {project.title}
