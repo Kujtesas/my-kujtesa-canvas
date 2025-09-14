@@ -4,7 +4,6 @@ const About = () => {
     'UI/UX Design',
     'Brand Identity',
     'Mobile Design',
-    'Frontend Development',
     'Graphic Design'
   ];
 
