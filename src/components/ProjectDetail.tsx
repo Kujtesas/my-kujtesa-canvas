@@ -78,7 +78,7 @@ const projectData = {
     title: 'MStudio Product',
     category: 'Product Design',
     description: 'Product design and development with attention to detail and usability. The project focused on creating user-centered design solutions that balance functionality with aesthetic appeal, ensuring optimal user experience and product success.',
-    images: [mstudio1, mstudio2, mstudio3, mstudio4],
+    images: [mstudio4, mstudio1, mstudio2, mstudio3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },

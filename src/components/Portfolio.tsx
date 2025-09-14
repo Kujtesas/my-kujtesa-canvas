@@ -12,6 +12,7 @@ import socialHero from '@/assets/social-hero.avif';
 import print1 from '@/assets/print-1.avif';
 import dentalHero from '@/assets/dental-hero.avif';
 import spektrHero from '@/assets/spektr-hero.jpg';
+import mstudio4 from '@/assets/mstudio-4.jpg';
 
 const projects = [
   {
@@ -46,7 +47,7 @@ const projects = [
     id: 'restaurant-website',
     title: 'MStudio Product',
     category: 'Product Design',
-    image: projectNew5,
+    image: mstudio4,
     description: 'Product design and development with attention to detail and usability.'
   },
   {
