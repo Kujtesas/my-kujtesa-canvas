@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { useEffect, useRef } from 'react';
 import projectDental from '@/assets/project-dental.avif';
 import projectDental2 from '@/assets/project-dental-2.avif';
 import projectDental3 from '@/assets/project-dental-3.webp';
@@ -15,7 +16,7 @@ const projectData = {
     title: 'Dental website & CRM',
     category: 'Web Design',
     description: 'I designed a modern dental practice website that combines clean aesthetics with user-friendly functionality. The design features a calming color palette, intuitive navigation, and seamless appointment booking system. The responsive layout ensures optimal viewing across all devices while maintaining the professional medical aesthetic.',
-    images: [projectDental, projectDental2, projectDental3, projectDental4, projectRestaurant, projectMobile], // Placeholder - using different images as examples
+    images: [projectDental, projectDental2, projectDental3, projectDental4], // Dental project images
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma']
   },
@@ -63,6 +64,7 @@ const projectData = {
 
 const ProjectDetail = () => {
   const { projectId } = useParams<{ projectId: string }>();
+  const scrollRef = useRef<HTMLDivElement>(null);
   
   if (!projectId || !projectData[projectId as keyof typeof projectData]) {
     return (
@@ -78,6 +80,39 @@ const ProjectDetail = () => {
   }
 
   const project = projectData[projectId as keyof typeof projectData];
+
+  // Auto-scroll effect for image carousel
+  useEffect(() => {
+    if (!scrollRef.current) return;
+    
+    const scrollContainer = scrollRef.current;
+    let scrollInterval: NodeJS.Timeout;
+    
+    const startAutoScroll = () => {
+      scrollInterval = setInterval(() => {
+        if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
+          scrollContainer.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          scrollContainer.scrollBy({ left: 300, behavior: 'smooth' });
+        }
+      }, 3000);
+    };
+    
+    const stopAutoScroll = () => {
+      clearInterval(scrollInterval);
+    };
+    
+    startAutoScroll();
+    
+    scrollContainer.addEventListener('mouseenter', stopAutoScroll);
+    scrollContainer.addEventListener('mouseleave', startAutoScroll);
+    
+    return () => {
+      clearInterval(scrollInterval);
+      scrollContainer.removeEventListener('mouseenter', stopAutoScroll);
+      scrollContainer.removeEventListener('mouseleave', startAutoScroll);
+    };
+  }, [project]);
 
   return (
     <div className="min-h-screen py-20 px-6">
@@ -134,7 +169,7 @@ const ProjectDetail = () => {
 
         {/* Project Images */}
         <div className="space-y-8">
-          {project.images.map((image, index) => (
+          {project.images.slice(0, -1).map((image, index) => (
             <div
               key={index}
               className="animate-fade-in-up rounded-xl overflow-hidden"
@@ -147,6 +182,29 @@ const ProjectDetail = () => {
               />
             </div>
           ))}
+        </div>
+
+        {/* Auto-scrolling Image Carousel */}
+        <div className="mt-12 animate-fade-in-up">
+          <h3 className="text-xl font-bold text-text-primary mb-6">Project Gallery</h3>
+          <div 
+            ref={scrollRef}
+            className="flex gap-4 overflow-x-auto scrollbar-hide pb-4"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {project.images.map((image, index) => (
+              <div
+                key={`carousel-${index}`}
+                className="flex-shrink-0 w-64 h-48 rounded-lg overflow-hidden"
+              >
+                <img
+                  src={image}
+                  alt={`${project.title} - Gallery ${index + 1}`}
+                  className="w-full h-full object-cover transition-smooth hover:scale-110"
+                />
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Call to Action */}
