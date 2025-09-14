@@ -22,6 +22,7 @@ import logo2 from '@/assets/logo-2.avif';
 import logo3 from '@/assets/logo-3.avif';
 import logo4 from '@/assets/logo-4.webp';
 import logo5 from '@/assets/logo-5.avif';
+import logo6 from '@/assets/logo-6.avif';
 
 const projectData = {
   'dental-website': {
@@ -68,7 +69,7 @@ const projectData = {
     title: 'Logos',
     category: 'Logo Design',
     description: 'Professional logo design with strong brand identity and visual impact. The design process involved concept development, typography selection, and color palette creation to establish memorable and versatile brand marks for various applications.',
-    images: [logo1, logo4, logo2, logo3, logo5],
+    images: [logo1, logo6, logo4, logo2, logo3, logo5],
     liveUrl: 'https://example.com',  
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
