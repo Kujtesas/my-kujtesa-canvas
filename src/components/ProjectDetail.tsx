@@ -6,6 +6,7 @@ import projectNew2 from '@/assets/project-new-2.avif';
 import projectNew3 from '@/assets/project-new-3.avif';
 import projectNew4 from '@/assets/project-new-4.avif';
 import projectNew5 from '@/assets/project-new-5.jpg';
+import spektrHero from '@/assets/spektr-hero.jpg';
 
 const projectData = {
   'dental-website': {
@@ -28,7 +29,7 @@ const projectData = {
     title: 'Spektr website and branding',
     category: 'Branding',
     description: 'Complete brand identity and website design with modern visual elements. The project involved creating a cohesive brand system, logo design, and responsive website that reflects the company\'s innovative approach and professional standards.',
-    images: [projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
+    images: [spektrHero, projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Creative Suite', 'Figma', 'React', 'CSS', 'JavaScript']
   },
