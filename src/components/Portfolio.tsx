@@ -4,13 +4,14 @@ import projectNew2 from '@/assets/project-new-2.avif';
 import projectNew3 from '@/assets/project-new-3.avif';
 import projectNew4 from '@/assets/project-new-4.avif';
 import projectNew5 from '@/assets/project-new-5.jpg';
+import dental1 from '@/assets/dental-1.jpg';
 
 const projects = [
   {
     id: 'dental-website',
     title: 'Dental website & CRM',
     category: 'Web Design',
-    image: projectNew1,
+    image: dental1,
     description: 'Modern dental practice website with clean design and appointment booking system.'
   },
   {

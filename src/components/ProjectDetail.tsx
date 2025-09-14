@@ -7,13 +7,17 @@ import projectNew3 from '@/assets/project-new-3.avif';
 import projectNew4 from '@/assets/project-new-4.avif';
 import projectNew5 from '@/assets/project-new-5.jpg';
 import spektrHero from '@/assets/spektr-hero.jpg';
+import dental1 from '@/assets/dental-1.jpg';
+import dental2 from '@/assets/dental-2.avif';
+import dental3 from '@/assets/dental-3.webp';
+import dental4 from '@/assets/dental-4.avif';
 
 const projectData = {
   'dental-website': {
     title: 'Dental website & CRM',
     category: 'Web Design',
     description: 'I designed a modern dental practice website that combines clean aesthetics with user-friendly functionality. The design features a calming color palette, intuitive navigation, and seamless appointment booking system. The responsive layout ensures optimal viewing across all devices while maintaining the professional medical aesthetic.',
-    images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
+    images: [dental1, dental2, dental3, dental4],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma']
   },
