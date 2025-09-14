@@ -1,23 +1,18 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { useEffect, useRef } from 'react';
-import projectDental from '@/assets/project-dental.avif';
-import projectDental2 from '@/assets/project-dental-2.avif';
-import projectDental3 from '@/assets/project-dental-3.webp';
-import projectDental4New from '@/assets/project-dental-4-new.avif';
-import projectDental4 from '@/assets/project-dental-4.avif';
-import projectEcommerce from '@/assets/project-ecommerce.jpg';
-import projectSaas from '@/assets/project-saas.jpg';
-import projectAgency from '@/assets/project-agency.jpg';
-import projectRestaurant from '@/assets/project-restaurant.jpg';
-import projectMobile from '@/assets/project-mobile.jpg';
+import projectNew1 from '@/assets/project-new-1.avif';
+import projectNew2 from '@/assets/project-new-2.avif';
+import projectNew3 from '@/assets/project-new-3.avif';
+import projectNew4 from '@/assets/project-new-4.avif';
+import projectNew5 from '@/assets/project-new-5.jpg';
 
 const projectData = {
   'dental-website': {
     title: 'Dental website & CRM',
     category: 'Web Design',
     description: 'I designed a modern dental practice website that combines clean aesthetics with user-friendly functionality. The design features a calming color palette, intuitive navigation, and seamless appointment booking system. The responsive layout ensures optimal viewing across all devices while maintaining the professional medical aesthetic.',
-    images: [projectDental, projectDental2, projectDental3, projectDental4New, projectDental4], // Dental project images
+    images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma']
   },
@@ -25,7 +20,7 @@ const projectData = {
     title: 'E-commerce platform',
     category: 'Web Development',
     description: 'A comprehensive e-commerce platform designed for fashion brands. Features include product catalog, shopping cart, secure checkout, and admin dashboard. The design emphasizes visual appeal with large product images and smooth user interactions throughout the shopping journey.',
-    images: [projectEcommerce, projectDental, projectSaas, projectAgency, projectRestaurant, projectMobile],
+    images: [projectNew2, projectNew1, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS']
   },
@@ -33,7 +28,7 @@ const projectData = {
     title: 'Spektr website and branding',
     category: 'Branding',
     description: 'Complete brand identity and website design with modern visual elements. The project involved creating a cohesive brand system, logo design, and responsive website that reflects the company\'s innovative approach and professional standards.',
-    images: [projectSaas, projectDental, projectEcommerce, projectAgency, projectRestaurant, projectMobile],
+    images: [projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Creative Suite', 'Figma', 'React', 'CSS', 'JavaScript']
   },
@@ -41,7 +36,7 @@ const projectData = {
     title: 'Master WiZR Website',
     category: 'Web Design',
     description: 'Professional website design with focus on user experience and functionality. The design emphasizes clean layouts, intuitive navigation, and responsive design principles to create an engaging digital experience across all devices.',
-    images: [projectAgency, projectDental, projectEcommerce, projectSaas, projectRestaurant, projectMobile],
+    images: [projectNew4, projectNew1, projectNew2, projectNew3, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Figma', 'React', 'Tailwind CSS', 'JavaScript', 'CSS Animations']
   },
@@ -49,7 +44,7 @@ const projectData = {
     title: 'MStudio Product',
     category: 'Product Design',
     description: 'Product design and development with attention to detail and usability. The project focused on creating user-centered design solutions that balance functionality with aesthetic appeal, ensuring optimal user experience and product success.',
-    images: [projectRestaurant, projectDental, projectEcommerce, projectSaas, projectAgency, projectMobile],
+    images: [projectNew5, projectNew1, projectNew2, projectNew3, projectNew4],
     liveUrl: 'https://example.com',
     technologies: ['Figma', 'Sketch', 'Adobe Creative Suite', 'Prototyping', 'User Research']
   },
@@ -57,7 +52,7 @@ const projectData = {
     title: 'Logos',
     category: 'Logo Design',
     description: 'Professional logo design with strong brand identity and visual impact. The design process involved concept development, typography selection, and color palette creation to establish memorable and versatile brand marks for various applications.',
-    images: [projectMobile, projectDental, projectEcommerce, projectSaas, projectAgency, projectRestaurant],
+    images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',  
     technologies: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma', 'Brand Guidelines', 'Typography']
   },
@@ -65,7 +60,7 @@ const projectData = {
     title: 'Social Media',
     category: 'Social Media',
     description: 'Creative social media content and campaign design with engaging visuals that drive audience engagement. The project involved creating cohesive visual content across multiple platforms while maintaining brand consistency and maximizing reach.',
-    images: [projectSaas, projectDental, projectEcommerce, projectAgency, projectRestaurant, projectMobile],
+    images: [projectNew2, projectNew1, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Creative Suite', 'Canva', 'Social Media Tools', 'Content Strategy', 'Analytics']
   },
@@ -73,7 +68,7 @@ const projectData = {
     title: 'Printing',
     category: 'Print Design',
     description: 'High-quality print materials including business cards, flyers and promotional items designed for maximum visual impact. The project focused on creating print-ready designs that maintain quality across different print mediums and formats.',
-    images: [projectAgency, projectDental, projectEcommerce, projectSaas, projectRestaurant, projectMobile],
+    images: [projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Adobe InDesign', 'Adobe Illustrator', 'Print Production', 'Color Management', 'Typography']
   },
@@ -81,7 +76,7 @@ const projectData = {
     title: 'ASTZ website & CRM',
     category: 'Web Design',
     description: 'Corporate website and customer relationship management system integration designed for business efficiency. The project combined modern web design with powerful CRM functionality to streamline business operations and improve customer relationships.',
-    images: [projectEcommerce, projectDental, projectSaas, projectAgency, projectRestaurant, projectMobile],
+    images: [projectNew4, projectNew1, projectNew2, projectNew3, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['React', 'CRM Integration', 'Database Design', 'API Development', 'Responsive Design']
   },
@@ -89,7 +84,7 @@ const projectData = {
     title: 'Presentations Design',
     category: 'Presentation Design',
     description: 'Professional presentation design with compelling visuals and clear messaging that captivate audiences. The project involved creating slide templates, infographics, and visual storytelling elements that enhance communication effectiveness.',
-    images: [projectRestaurant, projectDental, projectEcommerce, projectSaas, projectAgency, projectMobile],
+    images: [projectNew5, projectNew1, projectNew2, projectNew3, projectNew4],
     liveUrl: 'https://example.com',
     technologies: ['PowerPoint', 'Keynote', 'Adobe Creative Suite', 'Infographic Design', 'Visual Communication']
   },
@@ -97,7 +92,7 @@ const projectData = {
     title: 'Brochures',
     category: 'Print Design',
     description: 'Informative and visually appealing brochure design for various industries that effectively communicate brand messages. The designs balance text and imagery to create engaging marketing materials that drive customer action.',
-    images: [projectMobile, projectDental, projectEcommerce, projectSaas, projectAgency, projectRestaurant],
+    images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
     liveUrl: 'https://example.com',
     technologies: ['Adobe InDesign', 'Adobe Photoshop', 'Print Layout', 'Marketing Design', 'Brand Communication']
   }

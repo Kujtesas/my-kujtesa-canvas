@@ -1,87 +1,86 @@
 import { Link } from 'react-router-dom';
-import projectDental from '@/assets/project-dental.avif';
-import projectEcommerce from '@/assets/project-ecommerce.jpg';
-import projectSaas from '@/assets/project-saas.jpg';
-import projectAgency from '@/assets/project-agency.jpg';
-import projectRestaurant from '@/assets/project-restaurant.jpg';
-import projectMobile from '@/assets/project-mobile.jpg';
+import projectNew1 from '@/assets/project-new-1.avif';
+import projectNew2 from '@/assets/project-new-2.avif';
+import projectNew3 from '@/assets/project-new-3.avif';
+import projectNew4 from '@/assets/project-new-4.avif';
+import projectNew5 from '@/assets/project-new-5.jpg';
 
 const projects = [
   {
     id: 'dental-website',
     title: 'Dental website & CRM',
     category: 'Web Design',
-    image: projectDental,
+    image: projectNew1,
     description: 'Modern dental practice website with clean design and appointment booking system.'
   },
   {
     id: 'ecommerce-platform',
     title: 'E-commerce platform',
     category: 'Web Development',
-    image: projectEcommerce,
+    image: projectNew2,
     description: 'Full-featured e-commerce platform with responsive design and seamless checkout.'
   },
   {
     id: 'saas-dashboard',
     title: 'Spektr website and branding',
     category: 'Branding',
-    image: projectSaas,
+    image: projectNew3,
     description: 'Complete brand identity and website design with modern visual elements.'
   },
   {
     id: 'creative-agency',
     title: 'Master WiZR Website',
     category: 'Web Design',
-    image: projectAgency,
+    image: projectNew4,
     description: 'Professional website design with focus on user experience and functionality.'
   },
   {
     id: 'restaurant-website',
     title: 'MStudio Product',
     category: 'Product Design',
-    image: projectRestaurant,
+    image: projectNew5,
     description: 'Product design and development with attention to detail and usability.'
   },
   {
     id: 'mobile-app',
     title: 'Logos',
     category: 'Logo Design',
-    image: projectMobile,
+    image: projectNew1,
     description: 'Professional logo design with strong brand identity and visual impact.'
   },
   {
     id: 'social-media',
     title: 'Social Media',
     category: 'Social Media',
-    image: projectSaas,
+    image: projectNew2,
     description: 'Creative social media content and campaign design with engaging visuals.'
   },
   {
     id: 'printing',
     title: 'Printing',
     category: 'Print Design',
-    image: projectAgency,
+    image: projectNew3,
     description: 'High-quality print materials including business cards, flyers and promotional items.'
   },
   {
     id: 'astz-website',
     title: 'ASTZ website & CRM',
     category: 'Web Design',
-    image: projectEcommerce,
+    image: projectNew4,
     description: 'Corporate website and customer relationship management system integration.'
   },
   {
     id: 'presentations',
     title: 'Presentations Design',
     category: 'Presentation Design',
-    image: projectRestaurant,
+    image: projectNew5,
     description: 'Professional presentation design with compelling visuals and clear messaging.'
   },
   {
     id: 'brochures',
     title: 'Brochures',
     category: 'Print Design',
-    image: projectMobile,
+    image: projectNew1,
     description: 'Informative and visually appealing brochure design for various industries.'
   }
 ];
