@@ -13,6 +13,7 @@ import print1 from '@/assets/print-1.avif';
 import dentalHero from '@/assets/dental-hero.avif';
 import spektrHero from '@/assets/spektr-hero.jpg';
 import mstudio4 from '@/assets/mstudio-4.jpg';
+import ecommerce3 from '@/assets/ecommerce-3.png';
 
 const projects = [
   {
@@ -26,7 +27,7 @@ const projects = [
     id: 'ecommerce-platform',
     title: 'E-commerce platform',
     category: 'Web Development',
-    image: projectNew2,
+    image: ecommerce3,
     description: 'Full-featured e-commerce platform with responsive design and seamless checkout.'
   },
   {

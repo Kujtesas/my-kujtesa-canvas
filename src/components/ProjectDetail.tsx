@@ -57,7 +57,7 @@ const projectData = {
     title: 'E-commerce platform',
     category: 'Web Development',
     description: 'A comprehensive e-commerce platform designed for fashion brands. Features include product catalog, shopping cart, secure checkout, and admin dashboard. The design emphasizes visual appeal with large product images and smooth user interactions throughout the shopping journey.',
-    images: [ecommerce1, ecommerce2, ecommerce3],
+    images: [ecommerce3, ecommerce1, ecommerce2],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
