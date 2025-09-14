@@ -216,7 +216,7 @@ const ProjectDetail = () => {
 
         {/* Project Images */}
         <div className="space-y-8">
-          {project.images.slice(0, -1).map((image, index) => (
+          {project.images.map((image, index) => (
             <div
               key={index}
               className="animate-fade-in-up rounded-xl overflow-hidden"
