@@ -86,31 +86,17 @@ const ProjectDetail = () => {
     if (!scrollRef.current) return;
     
     const scrollContainer = scrollRef.current;
-    let scrollInterval: NodeJS.Timeout;
     
-    const startAutoScroll = () => {
-      scrollInterval = setInterval(() => {
-        if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
-          scrollContainer.scrollTo({ left: 0, behavior: 'smooth' });
-        } else {
-          scrollContainer.scrollBy({ left: 300, behavior: 'smooth' });
-        }
-      }, 3000);
-    };
-    
-    const stopAutoScroll = () => {
-      clearInterval(scrollInterval);
-    };
-    
-    startAutoScroll();
-    
-    scrollContainer.addEventListener('mouseenter', stopAutoScroll);
-    scrollContainer.addEventListener('mouseleave', startAutoScroll);
+    const scrollInterval = setInterval(() => {
+      if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
+        scrollContainer.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        scrollContainer.scrollBy({ left: 300, behavior: 'smooth' });
+      }
+    }, 3000);
     
     return () => {
       clearInterval(scrollInterval);
-      scrollContainer.removeEventListener('mouseenter', stopAutoScroll);
-      scrollContainer.removeEventListener('mouseleave', startAutoScroll);
     };
   }, [project]);
 
