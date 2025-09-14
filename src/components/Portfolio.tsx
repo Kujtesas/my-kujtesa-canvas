@@ -5,6 +5,7 @@ import projectNew3 from '@/assets/project-new-3.avif';
 import projectNew4 from '@/assets/project-new-4.avif';
 import projectNew5 from '@/assets/project-new-5.jpg';
 import dental1 from '@/assets/dental-1.jpg';
+import wizr4 from '@/assets/wizr-4.webp';
 
 const projects = [
   {
@@ -32,7 +33,7 @@ const projects = [
     id: 'creative-agency',
     title: 'Master WiZR Website',
     category: 'Web Design',
-    image: projectNew4,
+    image: wizr4,
     description: 'Professional website design with focus on user experience and functionality.'
   },
   {

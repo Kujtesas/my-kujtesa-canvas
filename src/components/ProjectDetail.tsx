@@ -12,6 +12,10 @@ import dental2 from '@/assets/dental-2.avif';
 import dental3 from '@/assets/dental-3.webp';
 import dental4 from '@/assets/dental-4.avif';
 import dental5 from '@/assets/dental-5.avif';
+import wizr1 from '@/assets/wizr-1.avif';
+import wizr2 from '@/assets/wizr-2.avif';
+import wizr3 from '@/assets/wizr-3.avif';
+import wizr4 from '@/assets/wizr-4.webp';
 
 const projectData = {
   'dental-website': {
@@ -42,7 +46,7 @@ const projectData = {
     title: 'Master WiZR Website',
     category: 'Web Design',
     description: 'Professional website design with focus on user experience and functionality. The design emphasizes clean layouts, intuitive navigation, and responsive design principles to create an engaging digital experience across all devices.',
-    images: [projectNew4, projectNew1, projectNew2, projectNew3, projectNew5],
+    images: [wizr4, wizr1, wizr2, wizr3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
