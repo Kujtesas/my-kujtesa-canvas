@@ -30,6 +30,10 @@ import social4 from '@/assets/social-4.avif';
 import social5 from '@/assets/social-5.avif';
 import social6 from '@/assets/social-6.webp';
 import socialHero from '@/assets/social-hero.avif';
+import print1 from '@/assets/print-1.avif';
+import print2 from '@/assets/print-2.avif';
+import print3 from '@/assets/print-3.avif';
+import print4 from '@/assets/print-4.webp';
 
 const projectData = {
   'dental-website': {
@@ -92,7 +96,7 @@ const projectData = {
     title: 'Printing',
     category: 'Print Design',
     description: 'High-quality print materials including business cards, flyers and promotional items designed for maximum visual impact. The project focused on creating print-ready designs that maintain quality across different print mediums and formats.',
-    images: [projectNew3, projectNew1, projectNew2, projectNew4, projectNew5],
+    images: [print1, print2, print3, print4],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },

@@ -8,6 +8,7 @@ import dental1 from '@/assets/dental-1.jpg';
 import wizr4 from '@/assets/wizr-4.webp';
 import logo1 from '@/assets/logo-1.jpg';
 import socialHero from '@/assets/social-hero.avif';
+import print1 from '@/assets/print-1.avif';
 
 const projects = [
   {
@@ -63,7 +64,7 @@ const projects = [
     id: 'printing',
     title: 'Printing',
     category: 'Print Design',
-    image: projectNew3,
+    image: print1,
     description: 'High-quality print materials including business cards, flyers and promotional items.'
   },
   {
