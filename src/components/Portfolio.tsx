@@ -16,38 +16,38 @@ const projects = [
   },
   {
     id: 'ecommerce-platform',
-    title: 'E-commerce Platform',
+    title: 'E-commerce platform',
     category: 'Web Development',
     image: projectEcommerce,
     description: 'Full-featured e-commerce platform with responsive design and seamless checkout.'
   },
   {
     id: 'saas-dashboard',
-    title: 'SaaS Dashboard',
-    category: 'UI/UX Design',
+    title: 'Spektr website and branding',
+    category: 'Branding',
     image: projectSaas,
-    description: 'Intuitive dashboard design for tech startup with data visualization.'
+    description: 'Complete brand identity and website design with modern visual elements.'
   },
   {
     id: 'creative-agency',
-    title: 'Creative Agency',
-    category: 'Branding',
+    title: 'Master WiZR Website',
+    category: 'Web Design',
     image: projectAgency,
-    description: 'Complete brand identity and website for creative digital agency.'
+    description: 'Professional website design with focus on user experience and functionality.'
   },
   {
     id: 'restaurant-website',
-    title: 'Restaurant Website',
-    category: 'Web Design',
+    title: 'MStudio Product',
+    category: 'Product Design',
     image: projectRestaurant,
-    description: 'Elegant restaurant website with menu showcase and reservation system.'
+    description: 'Product design and development with attention to detail and usability.'
   },
   {
     id: 'mobile-app',
-    title: 'Mobile App UI',
-    category: 'Mobile Design',
+    title: 'Logos',
+    category: 'Logo Design',
     image: projectMobile,
-    description: 'Modern mobile app interface with intuitive user experience design.'
+    description: 'Professional logo design with strong brand identity and visual impact.'
   }
 ];
 

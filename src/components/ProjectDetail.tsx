@@ -22,7 +22,7 @@ const projectData = {
     technologies: ['Adobe Photoshop', 'Figma']
   },
   'ecommerce-platform': {
-    title: 'E-commerce Platform',
+    title: 'E-commerce platform',
     category: 'Web Development',
     description: 'A comprehensive e-commerce platform designed for fashion brands. Features include product catalog, shopping cart, secure checkout, and admin dashboard. The design emphasizes visual appeal with large product images and smooth user interactions throughout the shopping journey.',
     images: [projectEcommerce, projectDental, projectSaas, projectAgency, projectRestaurant, projectMobile],
@@ -30,36 +30,36 @@ const projectData = {
     technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS']
   },
   'saas-dashboard': {
-    title: 'SaaS Dashboard',
-    category: 'UI/UX Design',
-    description: 'An intuitive dashboard interface for a tech startup\'s SaaS platform. The design focuses on data visualization, user analytics, and streamlined workflows. Clean typography and strategic use of color help users quickly understand complex information.',
+    title: 'Spektr website and branding',
+    category: 'Branding',
+    description: 'Complete brand identity and website design with modern visual elements. The project involved creating a cohesive brand system, logo design, and responsive website that reflects the company\'s innovative approach and professional standards.',
     images: [projectSaas, projectDental, projectEcommerce, projectAgency, projectRestaurant, projectMobile],
     liveUrl: 'https://example.com',
-    technologies: ['Figma', 'React', 'D3.js', 'TypeScript', 'Chart.js']
+    technologies: ['Adobe Creative Suite', 'Figma', 'React', 'CSS', 'JavaScript']
   },
   'creative-agency': {
-    title: 'Creative Agency',
-    category: 'Branding',
-    description: 'Complete brand identity and website design for a creative digital agency. The project involved logo design, brand guidelines, and a portfolio website that showcases their creative work. Bold typography and vibrant colors reflect the agency\'s innovative approach.',
+    title: 'Master WiZR Website',
+    category: 'Web Design',
+    description: 'Professional website design with focus on user experience and functionality. The design emphasizes clean layouts, intuitive navigation, and responsive design principles to create an engaging digital experience across all devices.',
     images: [projectAgency, projectDental, projectEcommerce, projectSaas, projectRestaurant, projectMobile],
     liveUrl: 'https://example.com',
-    technologies: ['Adobe Creative Suite', 'Figma', 'React', 'GSAP', 'CSS Animations']
+    technologies: ['Figma', 'React', 'Tailwind CSS', 'JavaScript', 'CSS Animations']
   },
   'restaurant-website': {
-    title: 'Restaurant Website',
-    category: 'Web Design',
-    description: 'An elegant restaurant website featuring menu showcase, online reservations, and photo gallery. The design emphasizes food photography and creates an inviting atmosphere that reflects the restaurant\'s ambiance. Mobile-first approach ensures great experience on all devices.',
+    title: 'MStudio Product',
+    category: 'Product Design',
+    description: 'Product design and development with attention to detail and usability. The project focused on creating user-centered design solutions that balance functionality with aesthetic appeal, ensuring optimal user experience and product success.',
     images: [projectRestaurant, projectDental, projectEcommerce, projectSaas, projectAgency, projectMobile],
     liveUrl: 'https://example.com',
-    technologies: ['WordPress', 'PHP', 'CSS', 'JavaScript', 'OpenTable API']
+    technologies: ['Figma', 'Sketch', 'Adobe Creative Suite', 'Prototyping', 'User Research']
   },
   'mobile-app': {
-    title: 'Mobile App UI',
-    category: 'Mobile Design',
-    description: 'Modern mobile application interface design focusing on user experience and intuitive navigation. The app features clean layouts, smooth animations, and accessibility considerations. Consistent design system ensures cohesive experience across all screens.',
+    title: 'Logos',
+    category: 'Logo Design',
+    description: 'Professional logo design with strong brand identity and visual impact. The design process involved concept development, typography selection, and color palette creation to establish memorable and versatile brand marks for various applications.',
     images: [projectMobile, projectDental, projectEcommerce, projectSaas, projectAgency, projectRestaurant],
     liveUrl: 'https://example.com',  
-    technologies: ['Figma', 'Sketch', 'Principle', 'React Native', 'Adobe XD']
+    technologies: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma', 'Brand Guidelines', 'Typography']
   }
 };
 
