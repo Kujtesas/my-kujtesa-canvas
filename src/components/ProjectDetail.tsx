@@ -60,6 +60,46 @@ const projectData = {
     images: [projectMobile, projectDental, projectEcommerce, projectSaas, projectAgency, projectRestaurant],
     liveUrl: 'https://example.com',  
     technologies: ['Adobe Illustrator', 'Adobe Photoshop', 'Figma', 'Brand Guidelines', 'Typography']
+  },
+  'social-media': {
+    title: 'Social Media',
+    category: 'Social Media',
+    description: 'Creative social media content and campaign design with engaging visuals that drive audience engagement. The project involved creating cohesive visual content across multiple platforms while maintaining brand consistency and maximizing reach.',
+    images: [projectSaas, projectDental, projectEcommerce, projectAgency, projectRestaurant, projectMobile],
+    liveUrl: 'https://example.com',
+    technologies: ['Adobe Creative Suite', 'Canva', 'Social Media Tools', 'Content Strategy', 'Analytics']
+  },
+  'printing': {
+    title: 'Printing',
+    category: 'Print Design',
+    description: 'High-quality print materials including business cards, flyers and promotional items designed for maximum visual impact. The project focused on creating print-ready designs that maintain quality across different print mediums and formats.',
+    images: [projectAgency, projectDental, projectEcommerce, projectSaas, projectRestaurant, projectMobile],
+    liveUrl: 'https://example.com',
+    technologies: ['Adobe InDesign', 'Adobe Illustrator', 'Print Production', 'Color Management', 'Typography']
+  },
+  'astz-website': {
+    title: 'ASTZ website & CRM',
+    category: 'Web Design',
+    description: 'Corporate website and customer relationship management system integration designed for business efficiency. The project combined modern web design with powerful CRM functionality to streamline business operations and improve customer relationships.',
+    images: [projectEcommerce, projectDental, projectSaas, projectAgency, projectRestaurant, projectMobile],
+    liveUrl: 'https://example.com',
+    technologies: ['React', 'CRM Integration', 'Database Design', 'API Development', 'Responsive Design']
+  },
+  'presentations': {
+    title: 'Presentations Design',
+    category: 'Presentation Design',
+    description: 'Professional presentation design with compelling visuals and clear messaging that captivate audiences. The project involved creating slide templates, infographics, and visual storytelling elements that enhance communication effectiveness.',
+    images: [projectRestaurant, projectDental, projectEcommerce, projectSaas, projectAgency, projectMobile],
+    liveUrl: 'https://example.com',
+    technologies: ['PowerPoint', 'Keynote', 'Adobe Creative Suite', 'Infographic Design', 'Visual Communication']
+  },
+  'brochures': {
+    title: 'Brochures',
+    category: 'Print Design',
+    description: 'Informative and visually appealing brochure design for various industries that effectively communicate brand messages. The designs balance text and imagery to create engaging marketing materials that drive customer action.',
+    images: [projectMobile, projectDental, projectEcommerce, projectSaas, projectAgency, projectRestaurant],
+    liveUrl: 'https://example.com',
+    technologies: ['Adobe InDesign', 'Adobe Photoshop', 'Print Layout', 'Marketing Design', 'Brand Communication']
   }
 };
 

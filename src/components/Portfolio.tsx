@@ -48,6 +48,41 @@ const projects = [
     category: 'Logo Design',
     image: projectMobile,
     description: 'Professional logo design with strong brand identity and visual impact.'
+  },
+  {
+    id: 'social-media',
+    title: 'Social Media',
+    category: 'Social Media',
+    image: projectSaas,
+    description: 'Creative social media content and campaign design with engaging visuals.'
+  },
+  {
+    id: 'printing',
+    title: 'Printing',
+    category: 'Print Design',
+    image: projectAgency,
+    description: 'High-quality print materials including business cards, flyers and promotional items.'
+  },
+  {
+    id: 'astz-website',
+    title: 'ASTZ website & CRM',
+    category: 'Web Design',
+    image: projectEcommerce,
+    description: 'Corporate website and customer relationship management system integration.'
+  },
+  {
+    id: 'presentations',
+    title: 'Presentations Design',
+    category: 'Presentation Design',
+    image: projectRestaurant,
+    description: 'Professional presentation design with compelling visuals and clear messaging.'
+  },
+  {
+    id: 'brochures',
+    title: 'Brochures',
+    category: 'Print Design',
+    image: projectMobile,
+    description: 'Informative and visually appealing brochure design for various industries.'
   }
 ];
 
