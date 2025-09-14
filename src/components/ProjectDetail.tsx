@@ -36,6 +36,10 @@ import print2 from '@/assets/print-2.avif';
 import print3 from '@/assets/print-3.avif';
 import print4 from '@/assets/print-4.webp';
 import print5 from '@/assets/print-5.webp';
+import mstudio1 from '@/assets/mstudio-1.jpg';
+import mstudio2 from '@/assets/mstudio-2.jpg';
+import mstudio3 from '@/assets/mstudio-3.jpg';
+import mstudio4 from '@/assets/mstudio-4.jpg';
 
 const projectData = {
   'dental-website': {
@@ -74,7 +78,7 @@ const projectData = {
     title: 'MStudio Product',
     category: 'Product Design',
     description: 'Product design and development with attention to detail and usability. The project focused on creating user-centered design solutions that balance functionality with aesthetic appeal, ensuring optimal user experience and product success.',
-    images: [projectNew5, projectNew1, projectNew2, projectNew3, projectNew4],
+    images: [mstudio1, mstudio2, mstudio3, mstudio4],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
