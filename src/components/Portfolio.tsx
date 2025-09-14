@@ -9,13 +9,14 @@ import wizr4 from '@/assets/wizr-4.webp';
 import logo1 from '@/assets/logo-1.jpg';
 import socialHero from '@/assets/social-hero.avif';
 import print1 from '@/assets/print-1.avif';
+import dentalHero from '@/assets/dental-hero.avif';
 
 const projects = [
   {
     id: 'dental-website',
     title: 'Dental website & CRM',
     category: 'Web Design',
-    image: dental1,
+    image: dentalHero,
     description: 'Modern dental practice website with clean design and appointment booking system.'
   },
   {
