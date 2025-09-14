@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import projectNew1 from '@/assets/project-new-1.avif';
+import brochure1 from '@/assets/brochure-1.png';
 import projectNew2 from '@/assets/project-new-2.avif';
 import projectNew3 from '@/assets/project-new-3.avif';
 import projectNew4 from '@/assets/project-new-4.avif';
@@ -92,7 +92,7 @@ const projects = [
     id: 'brochures',
     title: 'Brochures',
     category: 'Print Design',
-    image: projectNew1,
+    image: brochure1,
     description: 'Informative and visually appealing brochure design for various industries.'
   }
 ];

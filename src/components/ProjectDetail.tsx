@@ -50,6 +50,9 @@ import presentation1 from '@/assets/presentation-1.png';
 import presentation2 from '@/assets/presentation-2.png';
 import presentation3 from '@/assets/presentation-3.jpg';
 import presentation4 from '@/assets/presentation-4.png';
+import brochure1 from '@/assets/brochure-1.png';
+import brochure2 from '@/assets/brochure-2.png';
+import brochure3 from '@/assets/brochure-3.png';
 
 const projectData = {
   'dental-website': {
@@ -136,7 +139,7 @@ const projectData = {
     title: 'Brochures',
     category: 'Print Design',
     description: 'Informative and visually appealing brochure design for various industries that effectively communicate brand messages. The designs balance text and imagery to create engaging marketing materials that drive customer action.',
-    images: [projectNew1, projectNew2, projectNew3, projectNew4, projectNew5],
+    images: [brochure1, brochure2, brochure3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   }
