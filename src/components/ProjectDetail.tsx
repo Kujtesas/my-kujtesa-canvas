@@ -66,7 +66,7 @@ const projectData = {
     title: 'Master WiZR Website',
     category: 'Web Design',
     description: 'Professional website design with focus on user experience and functionality. The design emphasizes clean layouts, intuitive navigation, and responsive design principles to create an engaging digital experience across all devices.',
-    images: [wizr4, wizr5, wizr1, wizr2, wizr3],
+    images: [wizr1, wizr4, wizr5, wizr2, wizr3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
