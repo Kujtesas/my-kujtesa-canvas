@@ -7,6 +7,7 @@ import projectNew5 from '@/assets/project-new-5.jpg';
 import dental1 from '@/assets/dental-1.jpg';
 import wizr4 from '@/assets/wizr-4.webp';
 import logo1 from '@/assets/logo-1.jpg';
+import socialHero from '@/assets/social-hero.avif';
 
 const projects = [
   {
@@ -55,7 +56,7 @@ const projects = [
     id: 'social-media',
     title: 'Social Media',
     category: 'Social Media',
-    image: projectNew2,
+    image: socialHero,
     description: 'Creative social media content and campaign design with engaging visuals.'
   },
   {

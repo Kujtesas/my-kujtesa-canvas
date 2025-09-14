@@ -29,6 +29,7 @@ import social3 from '@/assets/social-3.jpg';
 import social4 from '@/assets/social-4.avif';
 import social5 from '@/assets/social-5.avif';
 import social6 from '@/assets/social-6.webp';
+import socialHero from '@/assets/social-hero.avif';
 
 const projectData = {
   'dental-website': {
@@ -83,7 +84,7 @@ const projectData = {
     title: 'Social Media',
     category: 'Social Media',
     description: 'Creative social media content and campaign design with engaging visuals that drive audience engagement. The project involved creating cohesive visual content across multiple platforms while maintaining brand consistency and maximizing reach.',
-    images: [social1, social2, social3, social4, social5, social6],
+    images: [socialHero, social1, social2, social3, social4, social5, social6],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
