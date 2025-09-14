@@ -6,6 +6,7 @@ import projectNew4 from '@/assets/project-new-4.avif';
 import projectNew5 from '@/assets/project-new-5.jpg';
 import dental1 from '@/assets/dental-1.jpg';
 import wizr4 from '@/assets/wizr-4.webp';
+import logo1 from '@/assets/logo-1.jpg';
 
 const projects = [
   {
@@ -47,7 +48,7 @@ const projects = [
     id: 'mobile-app',
     title: 'Logos',
     category: 'Logo Design',
-    image: projectNew1,
+    image: logo1,
     description: 'Professional logo design with strong brand identity and visual impact.'
   },
   {
