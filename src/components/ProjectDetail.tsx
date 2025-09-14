@@ -3,6 +3,7 @@ import { ArrowLeft, ExternalLink } from 'lucide-react';
 import projectDental from '@/assets/project-dental.avif';
 import projectDental2 from '@/assets/project-dental-2.avif';
 import projectDental3 from '@/assets/project-dental-3.webp';
+import projectDental4 from '@/assets/project-dental-4.avif';
 import projectEcommerce from '@/assets/project-ecommerce.jpg';
 import projectSaas from '@/assets/project-saas.jpg';
 import projectAgency from '@/assets/project-agency.jpg';
@@ -14,7 +15,7 @@ const projectData = {
     title: 'Dental website & CRM',
     category: 'Web Design',
     description: 'I designed a modern dental practice website that combines clean aesthetics with user-friendly functionality. The design features a calming color palette, intuitive navigation, and seamless appointment booking system. The responsive layout ensures optimal viewing across all devices while maintaining the professional medical aesthetic.',
-    images: [projectDental, projectDental2, projectDental3, projectAgency, projectRestaurant, projectMobile], // Placeholder - using different images as examples
+    images: [projectDental, projectDental2, projectDental3, projectDental4, projectRestaurant, projectMobile], // Placeholder - using different images as examples
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma']
   },
