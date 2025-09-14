@@ -15,7 +15,7 @@ import spektrHero from '@/assets/spektr-hero.jpg';
 import mstudio4 from '@/assets/mstudio-4.jpg';
 import ecommerce3 from '@/assets/ecommerce-3.png';
 import astz1 from '@/assets/astz-1.png';
-import presentation1 from '@/assets/presentation-1.png';
+import presentation4 from '@/assets/presentation-4.png';
 
 const projects = [
   {
@@ -85,7 +85,7 @@ const projects = [
     id: 'presentations',
     title: 'Presentations Design',
     category: 'Presentation Design',
-    image: presentation1,
+    image: presentation4,
     description: 'Professional presentation design with compelling visuals and clear messaging.'
   },
   {

@@ -128,7 +128,7 @@ const projectData = {
     title: 'Presentations Design',
     category: 'Presentation Design',
     description: 'Professional presentation design with compelling visuals and clear messaging that captivate audiences. The project involved creating slide templates, infographics, and visual storytelling elements that enhance communication effectiveness.',
-    images: [presentation1, presentation2, presentation3, presentation4],
+    images: [presentation4, presentation1, presentation2, presentation3],
     liveUrl: 'https://example.com',
     technologies: ['Adobe Photoshop', 'Figma', 'Adobe Illustrator']
   },
